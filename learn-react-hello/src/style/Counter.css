@@ -1,0 +1,24 @@
+.Counter {
+    background: #a9aaad;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.Counter-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 12px 15px;
+    background-color: #00BFFF;
+    border-color: white;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.Counter-textarea {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px 20px 20px 20px;
+    background: white;
+    border-radius: 6px 6px 6px 6px;
+}

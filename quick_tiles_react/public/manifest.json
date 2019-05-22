@@ -1,0 +1,28 @@
+{  
+  "manifest_version":2,
+  "name":"QuickTiles",
+  "author":"Sumesh Mani",
+  "version":"2.0",
+  "description":"Quick Tiles for New Tab built on React-JS",
+  "chrome_url_overrides":{  
+     "newtab":"index.html"
+  },
+  "browser_action":{  
+     "default_icon":{  
+        "16":"images/newTab-50.png",
+        "32":"images/newTab-50.png",
+        "48":"images/newTab-100.png",
+        "128":"images/newTab-500.png"
+     }
+  },
+  "permissions":[  
+     "https://*/*",
+     "http://*/*",
+     "tabs",
+     "bookmarks",
+     "storage"
+  ],
+  "web_accessible_resources":[  
+     "*.json"
+  ]
+}
